@@ -30,9 +30,6 @@ class MainActivity : AppCompatActivity() , TodoListFragment.OnFragmentInteractio
             showCreateTodoListDialog()
         }
 
-        supportFragmentManager.beginTransaction()
-            .add(R.id.fragment_container, todoListFragment)
-            .commit()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
